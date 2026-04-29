@@ -1,0 +1,10 @@
+# Client-specific ignores
+# Build outputs - should never be committed from client/
+dist/
+*.tsbuildinfo
+
+# Local environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
