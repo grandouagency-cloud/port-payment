@@ -1,18 +1,101 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Meta Tags Essentiels -->
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portail de payment</title>
-    <meta name="description" content="Finalisez avec votre paiement en toute sécurité." />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!-- Titres et Descriptions pour SEO -->
+    <title>port-payment - Portail de Paiement Sécurisé | Open Source</title>
+    <meta name="description" content="Portail de paiement open-source, sécurisé et multilingue. Finalisez vos paiements en toute confiance avec notre solution moderne et intuitive." />
+    <meta name="keywords" content="paiement, portail paiement, payment portal, paiement sécurisé, paiement en ligne, open source, GRANDOU" />
+    <meta name="author" content="GRANDOU Agency" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="French" />
+    
+    <!-- Open Graph Tags (Social Media) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="port-payment - Portail de Paiement Sécurisé" />
+    <meta property="og:description" content="Solution de paiement open-source, sécurisée et multilingue pour vos transactions en ligne." />
+    <meta property="og:url" content="https://port-payment.grandouagency.com" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/grandouagency-cloud/port-payment/main/assets/og-image.png" />
+    <meta property="og:locale" content="fr_HT" />
+    <meta property="og:locale:alternate" content="en_US" />
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="port-payment - Portail de Paiement Sécurisé" />
+    <meta name="twitter:description" content="Solution de paiement open-source, sécurisée et multilingue pour vos transactions en ligne." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/grandouagency-cloud/port-payment/main/assets/og-image.png" />
+    <meta name="twitter:creator" content="@grandouagency" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://port-payment.grandouagency.com" />
+    
+    <!-- Thème et Icônes -->
     <meta name="theme-color" content="#0a0a0a" />
+    <link rel="icon" type="image/x-icon" href="public/favicon.ico" />
+    <link rel="apple-touch-icon" href="public/assets/apple-touch-icon.png" />
+    <link rel="manifest" href="public/manifest.json" />
+    
+    <!-- Preconnect pour Optimisation -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    
+    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "port-payment",
+      "description": "Portail de paiement open-source, sécurisé et multilingue",
+      "url": "https://port-payment.grandouagency.com",
+      "author": {
+        "@type": "Organization",
+        "name": "GRANDOU Agency",
+        "url": "https://www.grandouagency.com",
+        "email": "grandouagency@gmail.com"
+      },
+      "license": "MIT",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    
+    <!-- Breadcrumb Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://port-payment.grandouagency.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Paiement",
+          "item": "https://port-payment.grandouagency.com/#payment"
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
